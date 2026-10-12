@@ -23,7 +23,7 @@
     title.textContent = entry.title;
     desc.textContent = entry.description;
     list.replaceChildren(...entry.points.map((p) => { const li = document.createElement('li'); li.textContent = p; return li; }));
-    download.href = 'cv/Sefik_Egriboz_' + id + '.pdf';
+    download.href = 'Sefik_Egriboz_' + id + '.pdf';
   }));
   const navToggle = document.querySelector('.nav-toggle');
   const nav = document.querySelector('.site-nav');
