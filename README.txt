@@ -35,10 +35,11 @@ PUBLICATION NOTES
   - For public deployment, add a domain after you approve the site content.
 
 CV VERSIONS
-  E = Solutions Architect (default landing-page emphasis)
-  A = Airline Operations Solutions Architect
-  T = Solution & Integration Architect | Data & AI Lead
-  P = Senior Product Owner & Delivery / Program Manager
-  G = Digital Transformation & Programme Manager
+  All five open with the same title, Principal Solutions Architect; the second line sets the focus.
+  E = Principal Solutions Architect (default landing-page emphasis)
+  A = Principal Solutions Architect, Airline Operations
+  T = Principal Solutions Architect, Data & AI
+  P = Principal Solutions Architect, Platform Product Owner
+  G = Principal Solutions Architect, Digital Transformation
 
 LAST UPDATED: October 2026
