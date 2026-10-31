@@ -27,7 +27,7 @@
       <a class="wordmark" href="#top" aria-label="Sefik Egriboz — ana sayfa"><span class="wordmark-mark" aria-hidden="true">SE<span class="mark-square"></span></span><span>Sefik Egriboz<span class="wordmark-sub">TEKNOLOJİ VE MİMARİ</span></span></a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menüyü aç/kapat"><span></span><span></span><span></span></button>
       <nav class="site-nav" id="site-nav" aria-label="Ana gezinme">
-        <a href="#about">Hakkımda</a><a href="#impact">Etki</a><a href="#work">Projeler</a><a href="#experience">Deneyim</a><a href="#cv">CV'ler</a><a class="lang-link" href="../" hreflang="en" lang="en" aria-label="English version">EN</a>
+        <a href="#about">Hakkımda</a><a href="#impact">Etki</a><a href="#work">Projeler</a><a href="#experience">Deneyim</a><a href="#cv">CV'ler</a><a href="#advisory">Danışmanlık</a><a class="lang-link" href="../" hreflang="en" lang="en" aria-label="English version">EN</a>
         <a class="nav-contact" href="#contact">İletişime geç <span aria-hidden="true">↗</span></a>
       </nav>
     </div>
@@ -102,9 +102,9 @@
       <div class="container">
         <div class="section-splithead"><div><div class="section-kicker">SEÇİLİ ÇALIŞMALAR</div><h2 class="section-heading">Karmaşık zorluklar.<br><em>Ölçülebilir sonuçlar.</em></h2></div><p>Seçili girişimler, role odaklı beş CV'den özetlenmiştir. Proje açıklamaları, bağımsız üçüncü taraf doğrulamasını değil, bildirilen sonuçları öne çıkarır.</p></div>
         <div class="project-grid">
-          <article class="project-card project-featured"><div class="project-top"><span>01 / YAPAY ZEKÂ VE EMNİYET</span><span class="project-icon" aria-hidden="true">✳</span></div><h3>Yapay zekâ tabanlı çağrı adı (callsign) emniyeti</h3><p>Çağrı adı atamasını bir kuadratik atama problemi olarak yeniden tanımladım ve Neo4j, Graph Attention Networks ile PyTorch Geometric kullanarak çizge tabanlı bir yapay zekâ çözümü geliştirdim.</p><div class="project-tags"><span>Çizge Yapay Zekâsı</span><span>Optimizasyon</span><span>Havacılık Emniyeti</span></div><div class="project-result"><strong>98%</strong><span>daha az bildirilen ATC karışıklık olayı</span></div></article>
-          <article class="project-card"><div class="project-top"><span>02 / ENTEGRASYON VE VERİ</span><span class="project-icon" aria-hidden="true">↔</span></div><h3>Kurumsal entegrasyon omurgası</h3><p>Büyük ve kesintisiz çalışan bir entegrasyon ortamında kurumsal mesajlaşmayı, veri akışını, API mimarisini ve yönetişimi standartlaştırdım. Görev kritik platformlarda, planlı bakım pencereleri dahil %99,8 erişilebilirlik sağladım.</p><div class="project-tags"><span>Kafka</span><span>IBM MQ</span><span>API Mimarisi</span></div><div class="project-result"><strong>~50M</strong><span>86 sistemde yıllık işlem</span></div></article>
-          <article class="project-card"><div class="project-top"><span>03 / GÖREV KRİTİK PLATFORMLAR</span><span class="project-icon" aria-hidden="true">▤</span></div><h3>TKAODS ve OFPDS</h3><p>Uçuş programı, uçuş ve operasyonel uçuş planı verileri için yetkili kaynak haline gelen iki Tier-0 operasyonel veri platformu tasarlayıp geliştirdim.</p><div class="project-tags"><span>Operasyonel Veri Deposu</span><span>NetLine</span><span>7/24</span></div><div class="project-result"><strong>11</strong><span>büyük aşağı akış iş alanı</span></div></article>
+          <article class="project-card project-featured" id="project-callsign"><div class="project-top"><span>01 / YAPAY ZEKÂ VE EMNİYET</span><span class="project-icon" aria-hidden="true">✳</span></div><h3>Yapay zekâ tabanlı çağrı adı (callsign) emniyeti</h3><p>Çağrı adı atamasını bir kuadratik atama problemi olarak yeniden tanımladım ve Neo4j, Graph Attention Networks ile PyTorch Geometric kullanarak çizge tabanlı bir yapay zekâ çözümü geliştirdim.</p><div class="project-tags"><span>Çizge Yapay Zekâsı</span><span>Optimizasyon</span><span>Havacılık Emniyeti</span></div><div class="project-result"><strong>98%</strong><span>daha az bildirilen ATC karışıklık olayı</span></div></article>
+          <article class="project-card" id="project-integration"><div class="project-top"><span>02 / ENTEGRASYON VE VERİ</span><span class="project-icon" aria-hidden="true">↔</span></div><h3>Kurumsal entegrasyon omurgası</h3><p>Büyük ve kesintisiz çalışan bir entegrasyon ortamında kurumsal mesajlaşmayı, veri akışını, API mimarisini ve yönetişimi standartlaştırdım. Görev kritik platformlarda, planlı bakım pencereleri dahil %99,8 erişilebilirlik sağladım.</p><div class="project-tags"><span>Kafka</span><span>IBM MQ</span><span>API Mimarisi</span></div><div class="project-result"><strong>~50M</strong><span>86 sistemde yıllık işlem</span></div></article>
+          <article class="project-card" id="project-ods"><div class="project-top"><span>03 / GÖREV KRİTİK PLATFORMLAR</span><span class="project-icon" aria-hidden="true">▤</span></div><h3>TKAODS ve OFPDS</h3><p>Uçuş programı, uçuş ve operasyonel uçuş planı verileri için yetkili kaynak haline gelen iki Tier-0 operasyonel veri platformu tasarlayıp geliştirdim.</p><div class="project-tags"><span>Operasyonel Veri Deposu</span><span>NetLine</span><span>7/24</span></div><div class="project-result"><strong>11</strong><span>büyük aşağı akış iş alanı</span></div></article>
           <article class="project-card"><div class="project-top"><span>04 / OPERASYONEL EMNİYET</span><span class="project-icon" aria-hidden="true">◎</span></div><h3>Gerçek zamanlı erken uyarı</h3><p>Planlanan uçuş rotalarını, uçuş serbest bırakılmadan (dispatch) önce otomatik kontroller ve alarmlarla çapraz denetleyen bir sistem geliştirdim.</p><div class="project-tags"><span>Uçuş Planlama</span><span>Gerçek Zamanlı</span><span>Risk Kontrolleri</span></div><div class="project-result"><strong>Sıfır</strong><span>devreye alındığından beri bildirilen kısıtlı hava sahasına dispatch</span></div></article>
           <article class="project-card"><div class="project-top"><span>05 / FİNANSAL ETKİ</span><span class="project-icon" aria-hidden="true">€</span></div><h3>Overflight maliyet optimizasyonu</h3><p>Uçuş rotası, ülke giriş ve çıkışı ile segment mesafesi bilgilerini kullanan, çok para birimli bir maliyet konsolidasyonu ve hesaplama motoru geliştirdim.</p><div class="project-tags"><span>Maliyet Mühendisliği</span><span>Veri Hatları</span><span>Hava Sahası</span></div><div class="project-result"><strong>€800K</strong><span>ilk yılda bildirilen tasarruf</span></div></article>
           <article class="project-card"><div class="project-top"><span>06 / STRATEJİ VE TESLİMAT</span><span class="project-icon" aria-hidden="true">◇</span></div><h3>Platform, ürün ve tedarikçi stratejisi</h3><p>Altı operasyonel sistem için yol haritaları belirledim; kısa listeleme, kavram kanıtı (PoC) çalışması ve iş senaryolarını içeren beş tedarikçili bir platform değerlendirmesine liderlik ettim.</p><div class="project-tags"><span>Ürün Yol Haritaları</span><span>RFP / RFI</span><span>Mimari Yönetişim</span></div><div class="project-result"><strong>6</strong><span>görev kritik platform yol haritası</span></div></article>
@@ -143,6 +143,75 @@
       <article class="cv-row"><div class="cv-code">P</div><div><h3>Principal Solutions Architect, Platform Product Owner</h3><p>Program ve teslimat liderliği · Ürün stratejisi · Çevik teslimat</p></div><a href="../Sefik_Egriboz_P.pdf" download class="cv-download" aria-label="Product Owner CV'sini indir, PDF">PDF <span aria-hidden="true">↓</span></a></article>
       <article class="cv-row"><div class="cv-code">G</div><div><h3>Principal Solutions Architect, Digital Transformation</h3><p>Program teslimi · Kurumsal entegrasyon</p></div><a href="../Sefik_Egriboz_G.pdf" download class="cv-download" aria-label="Transformation CV'sini indir, PDF">PDF <span aria-hidden="true">↓</span></a></article>
     </div></div></section>
+
+    <section class="section section-light advisory-section" id="advisory" aria-labelledby="advisory-title">
+      <div class="container">
+        <div class="section-splithead"><div><div class="section-kicker">DANIŞMANLIK · SEÇİLİ ÇALIŞMALAR</div><h2 class="section-heading" id="advisory-title">Üretimden gelen deneyimle<br><em>üç somut katkı.</em></h2></div><p>Kalıcı rollerin yanı sıra havayolu ve kurumsal BT alanında seçili danışmanlık ve geçici (interim) görevler üstleniyorum. Her biri, tasarladığım, entegre ettiğim ve kesintisiz çalıştırdığım sistemlere dayanıyor.</p></div>
+        <figure class="advisory-figure">
+          <p class="advisory-hint mono">Diyagramın tamamı için kaydırın →</p>
+          <div class="advisory-scroll">
+            <svg viewBox="0 0 970 350" role="img" aria-labelledby="adv-dg-t adv-dg-d">
+              <title id="adv-dg-t">Üç çalışma alanının bir havayolu operasyon ortamındaki yeri</title>
+              <desc id="adv-dg-d">Operasyonel kaynak sistemler bir entegrasyon omurgasını, omurga bir operasyonel veri deposunu besler; veri deposu operasyon kontrolüne, emniyet yapay zekâsına, rota kontrollerine, overflight maliyet motoruna ve aşağı akış iş alanlarına hizmet verir.</desc>
+              <text class="lbl" x="20" y="22">KAYNAK SİSTEMLER</text><text class="lbl" x="270" y="22">ENTEGRASYON</text><text class="lbl" x="515" y="22">VERİ</text><text class="lbl" x="755" y="22">OPERASYON VE YZ</text>
+              <path class="wire" d="M210 57 H270M210 101 H270M210 145 H270M210 189 H270M210 233 H270M210 277 H270"/>
+              <path class="wire-hot" d="M460 167 H515"/>
+              <path class="wire" d="M695 167 C725 167 725 57 755 57M695 167 C725 167 725 165 755 165M695 167 C725 167 725 219 755 219M695 167 C725 167 725 273 755 273"/>
+              <path class="wire-hot" d="M695 167 C725 167 725 111 755 111"/>
+              <rect class="box" x="20" y="40" width="190" height="34"/><text x="34" y="62">Uçuş programı yönetimi</text>
+              <rect class="box" x="20" y="84" width="190" height="34"/><text x="34" y="106">NetLine · IOCC</text>
+              <rect class="box" x="20" y="128" width="190" height="34"/><text x="34" y="150">Uçuş planlama</text>
+              <rect class="box" x="20" y="172" width="190" height="34"/><text x="34" y="194">Ekip ve yer operasyonu</text>
+              <rect class="box" x="20" y="216" width="190" height="34"/><text x="34" y="238">PSS / DCS</text>
+              <rect class="box" x="20" y="260" width="190" height="34"/><text x="34" y="282">Ortaklar ve otoriteler</text>
+              <rect class="spine" x="270" y="40" width="190" height="254"/>
+              <text class="lbl" x="286" y="66">A</text>
+              <text class="strong" x="286" y="150">Entegrasyon omurgası</text><text class="sub" x="286" y="170">Kafka · IBM MQ · API'ler</text><text class="sub" x="286" y="188">Yönetişim · kanonik modeller</text>
+              <rect class="box" x="515" y="112" width="180" height="110"/>
+              <text class="strong" x="531" y="146">Operasyonel veri deposu</text><text class="sub" x="531" y="166">Uçuş programı · uçuş · OFP</text><text class="sub" x="531" y="184">Tier-0 · 7/24</text>
+              <text class="lbl" x="531" y="208">B</text>
+              <rect class="box" x="755" y="40" width="205" height="34"/><text x="769" y="62">Operasyon kontrol</text>
+              <rect class="box-hot" x="755" y="94" width="205" height="34"/><text class="strong" x="769" y="116">Çağrı adı emniyeti YZ</text><text class="lbl" x="940" y="115">C</text>
+              <rect class="box" x="755" y="148" width="205" height="34"/><text x="769" y="170">Kalkış öncesi rota kontrolü</text>
+              <rect class="box" x="755" y="202" width="205" height="34"/><text x="769" y="224">Overflight maliyet motoru</text>
+              <rect class="box" x="755" y="256" width="205" height="34"/><text x="769" y="278">11 aşağı akış iş alanı</text>
+              <text class="sub" x="270" y="326">A · Entegrasyon değerlendirmesi</text><text class="sub" x="515" y="248">B · Operasyon platformu incelemesi</text><text class="sub" x="755" y="326">C · Uygulamalı yapay zekâ</text>
+            </svg>
+          </div>
+          <figcaption><span>Yukarıdaki projelerin arkasındaki ortamın sadeleştirilmiş görünümü</span><span>200+ entegrasyon noktası · 86 sistem · yılda ~50M işlem</span></figcaption>
+        </figure>
+        <div class="advisory-grid">
+          <article class="advisory-card">
+            <div class="project-top"><span>A / ENTEGRASYON</span><span class="project-icon" aria-hidden="true">↔</span></div>
+            <h3>Entegrasyon mimarisi değerlendirmesi</h3>
+            <p class="advisory-for">Entegrasyon ortamı, yönetişiminden daha hızlı büyümüş havayolları ve kurumlar için.</p>
+            <ul class="advisory-list"><li>Arayüzlerin, veri akışlarının ve sahipliklerin mevcut durum haritası</li><li>Olay güdümlü ve API öncelikli yaklaşımlara göre risk ve boşluk analizi</li><li>Sıralı bir yol haritasıyla hedef mimari</li></ul>
+            <div class="advisory-proof"><span class="mono">DAYANAĞI</span><div class="project-result"><strong>%99,8</strong><span>86 sistemde erişilebilirlik</span></div><div class="project-tags"><span>Kafka</span><span>IBM MQ</span><span>API yönetişimi</span></div><a class="advisory-link" href="#project-integration">Entegrasyon omurgası projesine git <span aria-hidden="true">→</span></a></div>
+          </article>
+          <article class="advisory-card">
+            <div class="project-top"><span>B / OPERASYON</span><span class="project-icon" aria-hidden="true">▤</span></div>
+            <h3>Havayolu operasyon platformu incelemesi</h3>
+            <p class="advisory-for">Platform yenileme ya da tedarikçi kararıyla karşı karşıya olan operasyon, uçuş programı ve uçuş planlama ekipleri için.</p>
+            <ul class="advisory-list"><li>Platform sağlık kontrolü ve veri sahipliği incelemesi</li><li>Tedarikçi ön eleme, RFI/RFP ve kavram kanıtı (PoC) desteği</li><li>Görev kritik, kesintisiz platformlar için yol haritası</li></ul>
+            <div class="advisory-proof"><span class="mono">DAYANAĞI</span><div class="project-result"><strong>11</strong><span>TKAODS ve OFPDS'nin hizmet verdiği aşağı akış iş alanı</span></div><div class="project-tags"><span>NetLine</span><span>IOCC</span><span>IATA SSIM</span></div><a class="advisory-link" href="#project-ods">TKAODS ve OFPDS'ye git <span aria-hidden="true">→</span></a></div>
+          </article>
+          <article class="advisory-card">
+            <div class="project-top"><span>C / UYGULAMALI YZ</span><span class="project-icon" aria-hidden="true">✳</span></div>
+            <h3>Havacılık operasyonları için uygulamalı yapay zekâ</h3>
+            <p class="advisory-for">Yapay zekânın gerçek bir operasyonel sorunu nerede çözebileceğini test etmek isteyen operasyon ve emniyet ekipleri için.</p>
+            <ul class="advisory-list"><li>Kullanım senaryosu seçimi ve problem tanımı</li><li>Operasyonel veri kaynaklarında veri hazırlık kontrolü</li><li>Net başarı kriterleriyle kavram kanıtı tasarımı</li></ul>
+            <div class="advisory-proof"><span class="mono">DAYANAĞI</span><div class="project-result"><strong>%98</strong><span>daha az bildirilen ATC çağrı adı karışıklığı olayı</span></div><div class="project-tags"><span>Graph AI</span><span>Neo4j</span><span>PyTorch Geometric</span></div><a class="advisory-link" href="#project-callsign">Çağrı adı emniyeti projesine git <span aria-hidden="true">→</span></a></div>
+          </article>
+        </div>
+        <div class="advisory-formats" aria-label="Çalışma biçimleri">
+          <div><h3>Sabit kapsamlı değerlendirme</h3><p>Tanımlı bir soru, bulgular raporu ve önerilen yol.</p></div>
+          <div><h3>Geçici mimar veya platform lideri</h3><p>Belirli bir süre için bir mimarinin ya da platformun uygulamalı sahipliği.</p></div>
+          <div><h3>İnceleme ve çalıştay</h3><p>Mimari incelemeler, tasarım sorgulamaları ve ekip çalıştayları.</p></div>
+        </div>
+        <div class="advisory-cta"><p><strong>Bir platform ya da entegrasyon sorunuz mu var?</strong> Kısa bir açıklamayla <a href="mailto:sefik.egriboz@gmail.com">sefik.egriboz@gmail.com</a> adresine yazın, nasıl yaklaşacağımı paylaşayım.</p><a class="btn advisory-btn" href="#contact">Danışmanlık için görüşelim <span aria-hidden="true">↗</span></a></div>
+        <p class="metric-note">Sonuçlar, sitenin genelinde olduğu gibi CV'lerde bildirildiği şekliyle verilmiştir.</p>
+      </div>
+    </section>
 
     <section class="contact-section" id="contact"><div class="container contact-grid"><div><div class="section-kicker kicker-light">BAĞLANTI KURALIM</div><h2>Birlikte <em>anlamlı bir şey</em> kuralım.</h2><p>Çözüm mimarisi, havacılık teknolojisi, kurumsal entegrasyon, yapay zekâ destekli sistemler ve teknik ürün liderliği üzerine görüşmelere açığım.</p></div><div class="contact-links"><a href="mailto:sefik.egriboz@gmail.com"><span>E-posta</span><strong>sefik.egriboz@gmail.com</strong><span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/sefikegriboz" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><strong>linkedin.com/in/sefikegriboz</strong><span aria-hidden="true">↗</span></a><div class="contact-location">İstanbul, Türkiye merkezli · Taşınmaya açığım</div></div></div></section>
   </main>

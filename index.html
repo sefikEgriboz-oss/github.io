@@ -26,7 +26,7 @@
       <a class="wordmark" href="#top" aria-label="Sefik Egriboz — home"><span class="wordmark-mark" aria-hidden="true">SE<span class="mark-square"></span></span><span>Sefik Egriboz<span class="wordmark-sub">TECHNOLOGY & ARCHITECTURE</span></span></a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
       <nav class="site-nav" id="site-nav" aria-label="Main navigation">
-        <a href="#about">About</a><a href="#impact">Impact</a><a href="#work">Projects</a><a href="#experience">Experience</a><a href="#cv">CVs</a><a class="lang-link" href="tr/" hreflang="tr" lang="tr" aria-label="Türkçe sürüm">TR</a>
+        <a href="#about">About</a><a href="#impact">Impact</a><a href="#work">Projects</a><a href="#experience">Experience</a><a href="#cv">CVs</a><a href="#advisory">Advisory</a><a class="lang-link" href="tr/" hreflang="tr" lang="tr" aria-label="Türkçe sürüm">TR</a>
         <a class="nav-contact" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
       </nav>
     </div>
@@ -101,9 +101,9 @@
       <div class="container">
         <div class="section-splithead"><div><div class="section-kicker">SELECTED WORK</div><h2 class="section-heading">Complex challenges.<br><em>Measurable results.</em></h2></div><p>Selected initiatives summarized from the five role-focused CVs. The project descriptions highlight reported outcomes rather than independent third-party validation.</p></div>
         <div class="project-grid">
-          <article class="project-card project-featured"><div class="project-top"><span>01 / AI & SAFETY</span><span class="project-icon" aria-hidden="true">✳</span></div><h3>AI-based callsign safety</h3><p>Reframed callsign assignment as a quadratic assignment problem and built a graph-based AI solution using Neo4j, Graph Attention Networks and PyTorch Geometric.</p><div class="project-tags"><span>Graph AI</span><span>Optimization</span><span>Aviation Safety</span></div><div class="project-result"><strong>98%</strong><span>fewer reported ATC confusion events</span></div></article>
-          <article class="project-card"><div class="project-top"><span>02 / INTEGRATION & DATA</span><span class="project-icon" aria-hidden="true">↔</span></div><h3>Enterprise integration backbone</h3><p>Standardized enterprise messaging, streaming, API architecture and governance across a large and continuously running integration landscape. Delivered 99.8% availability, including planned maintenance windows, for the mission-critical platforms.</p><div class="project-tags"><span>Kafka</span><span>IBM MQ</span><span>API Architecture</span></div><div class="project-result"><strong>~50M</strong><span>annual transactions across 86 systems</span></div></article>
-          <article class="project-card"><div class="project-top"><span>03 / MISSION-CRITICAL PLATFORMS</span><span class="project-icon" aria-hidden="true">▤</span></div><h3>TKAODS & OFPDS</h3><p>Designed and built two Tier-0 operational data platforms that became authoritative sources for schedule, flight and operational flight-plan data.</p><div class="project-tags"><span>Operational Data Store</span><span>NetLine</span><span>24/7</span></div><div class="project-result"><strong>11</strong><span>major downstream business domains</span></div></article>
+          <article class="project-card project-featured" id="project-callsign"><div class="project-top"><span>01 / AI & SAFETY</span><span class="project-icon" aria-hidden="true">✳</span></div><h3>AI-based callsign safety</h3><p>Reframed callsign assignment as a quadratic assignment problem and built a graph-based AI solution using Neo4j, Graph Attention Networks and PyTorch Geometric.</p><div class="project-tags"><span>Graph AI</span><span>Optimization</span><span>Aviation Safety</span></div><div class="project-result"><strong>98%</strong><span>fewer reported ATC confusion events</span></div></article>
+          <article class="project-card" id="project-integration"><div class="project-top"><span>02 / INTEGRATION & DATA</span><span class="project-icon" aria-hidden="true">↔</span></div><h3>Enterprise integration backbone</h3><p>Standardized enterprise messaging, streaming, API architecture and governance across a large and continuously running integration landscape. Delivered 99.8% availability, including planned maintenance windows, for the mission-critical platforms.</p><div class="project-tags"><span>Kafka</span><span>IBM MQ</span><span>API Architecture</span></div><div class="project-result"><strong>~50M</strong><span>annual transactions across 86 systems</span></div></article>
+          <article class="project-card" id="project-ods"><div class="project-top"><span>03 / MISSION-CRITICAL PLATFORMS</span><span class="project-icon" aria-hidden="true">▤</span></div><h3>TKAODS & OFPDS</h3><p>Designed and built two Tier-0 operational data platforms that became authoritative sources for schedule, flight and operational flight-plan data.</p><div class="project-tags"><span>Operational Data Store</span><span>NetLine</span><span>24/7</span></div><div class="project-result"><strong>11</strong><span>major downstream business domains</span></div></article>
           <article class="project-card"><div class="project-top"><span>04 / OPERATIONAL SAFETY</span><span class="project-icon" aria-hidden="true">◎</span></div><h3>Real-time early warning</h3><p>Engineered a system to cross-check planned flight routes with automated checks and alarms before dispatch.</p><div class="project-tags"><span>Flight Planning</span><span>Real-Time</span><span>Risk Controls</span></div><div class="project-result"><strong>Zero</strong><span>restricted-airspace dispatches reported since go-live</span></div></article>
           <article class="project-card"><div class="project-top"><span>05 / FINANCIAL IMPACT</span><span class="project-icon" aria-hidden="true">€</span></div><h3>Overflight cost optimization</h3><p>Developed a multi-currency cost consolidation and calculation engine using flight route, country entry and exit, and segment distance information.</p><div class="project-tags"><span>Cost Engineering</span><span>Data Pipelines</span><span>Airspace</span></div><div class="project-result"><strong>€800K</strong><span>reported savings in the first year</span></div></article>
           <article class="project-card"><div class="project-top"><span>06 / STRATEGY & DELIVERY</span><span class="project-icon" aria-hidden="true">◇</span></div><h3>Platforms, product & vendor strategy</h3><p>Set roadmaps for six operational systems and led a five-vendor platform evaluation, including shortlisting, proof-of-concept work and business cases.</p><div class="project-tags"><span>Product Roadmaps</span><span>RFP / RFI</span><span>Architecture Governance</span></div><div class="project-result"><strong>6</strong><span>mission-critical platform roadmaps</span></div></article>
@@ -142,6 +142,75 @@
       <article class="cv-row"><div class="cv-code">P</div><div><h3>Principal Solutions Architect, Platform Product Owner</h3><p>Program &amp; delivery leadership · Product strategy · Agile delivery</p></div><a href="Sefik_Egriboz_P.pdf" download class="cv-download" aria-label="Download Product Owner CV, PDF">PDF <span aria-hidden="true">↓</span></a></article>
       <article class="cv-row"><div class="cv-code">G</div><div><h3>Principal Solutions Architect, Digital Transformation</h3><p>Programme delivery · Enterprise integration</p></div><a href="Sefik_Egriboz_G.pdf" download class="cv-download" aria-label="Download Transformation CV, PDF">PDF <span aria-hidden="true">↓</span></a></article>
     </div></div></section>
+
+    <section class="section section-light advisory-section" id="advisory" aria-labelledby="advisory-title">
+      <div class="container">
+        <div class="section-splithead"><div><div class="section-kicker">ADVISORY · SELECTED ENGAGEMENTS</div><h2 class="section-heading" id="advisory-title">Three ways I can help,<br><em>drawn from production work.</em></h2></div><p>Alongside permanent roles, I take on selected advisory and interim engagements in airline and enterprise IT. Each one builds on systems I have designed, integrated and kept running.</p></div>
+        <figure class="advisory-figure">
+          <p class="advisory-hint mono">Swipe to see the full diagram →</p>
+          <div class="advisory-scroll">
+            <svg viewBox="0 0 970 350" role="img" aria-labelledby="adv-dg-t adv-dg-d">
+              <title id="adv-dg-t">Where the three engagements apply in an airline operations landscape</title>
+              <desc id="adv-dg-d">Operational source systems feed an integration backbone, which feeds an operational data store, which serves operations control, safety AI, route checks, the overflight cost engine and downstream domains.</desc>
+              <text class="lbl" x="20" y="22">SOURCE SYSTEMS</text><text class="lbl" x="270" y="22">INTEGRATION</text><text class="lbl" x="515" y="22">DATA</text><text class="lbl" x="755" y="22">OPERATIONS &amp; AI</text>
+              <path class="wire" d="M210 57 H270M210 101 H270M210 145 H270M210 189 H270M210 233 H270M210 277 H270"/>
+              <path class="wire-hot" d="M460 167 H515"/>
+              <path class="wire" d="M695 167 C725 167 725 57 755 57M695 167 C725 167 725 165 755 165M695 167 C725 167 725 219 755 219M695 167 C725 167 725 273 755 273"/>
+              <path class="wire-hot" d="M695 167 C725 167 725 111 755 111"/>
+              <rect class="box" x="20" y="40" width="190" height="34"/><text x="34" y="62">Schedule management</text>
+              <rect class="box" x="20" y="84" width="190" height="34"/><text x="34" y="106">NetLine · IOCC</text>
+              <rect class="box" x="20" y="128" width="190" height="34"/><text x="34" y="150">Flight planning</text>
+              <rect class="box" x="20" y="172" width="190" height="34"/><text x="34" y="194">Crew &amp; ground ops</text>
+              <rect class="box" x="20" y="216" width="190" height="34"/><text x="34" y="238">PSS / DCS</text>
+              <rect class="box" x="20" y="260" width="190" height="34"/><text x="34" y="282">Partners &amp; authorities</text>
+              <rect class="spine" x="270" y="40" width="190" height="254"/>
+              <text class="lbl" x="286" y="66">A</text>
+              <text class="strong" x="286" y="150">Integration backbone</text><text class="sub" x="286" y="170">Kafka · IBM MQ · APIs</text><text class="sub" x="286" y="188">Governance · canonical models</text>
+              <rect class="box" x="515" y="112" width="180" height="110"/>
+              <text class="strong" x="531" y="146">Operational data store</text><text class="sub" x="531" y="166">Schedule · flight · OFP</text><text class="sub" x="531" y="184">Tier-0 · 24/7</text>
+              <text class="lbl" x="531" y="208">B</text>
+              <rect class="box" x="755" y="40" width="205" height="34"/><text x="769" y="62">Operations control</text>
+              <rect class="box-hot" x="755" y="94" width="205" height="34"/><text class="strong" x="769" y="116">Callsign safety AI</text><text class="lbl" x="940" y="115">C</text>
+              <rect class="box" x="755" y="148" width="205" height="34"/><text x="769" y="170">Pre-dispatch route checks</text>
+              <rect class="box" x="755" y="202" width="205" height="34"/><text x="769" y="224">Overflight cost engine</text>
+              <rect class="box" x="755" y="256" width="205" height="34"/><text x="769" y="278">11 downstream domains</text>
+              <text class="sub" x="270" y="326">A · Integration assessment</text><text class="sub" x="515" y="248">B · Operations platform review</text><text class="sub" x="755" y="326">C · Applied AI</text>
+            </svg>
+          </div>
+          <figcaption><span>Simplified view of the landscape behind the projects above</span><span>200+ integration points · 86 systems · ~50M transactions/year</span></figcaption>
+        </figure>
+        <div class="advisory-grid">
+          <article class="advisory-card">
+            <div class="project-top"><span>A / INTEGRATION</span><span class="project-icon" aria-hidden="true">↔</span></div>
+            <h3>Integration architecture assessment</h3>
+            <p class="advisory-for">For airlines and enterprises whose integration landscape has grown faster than its governance.</p>
+            <ul class="advisory-list"><li>Current-state map of interfaces, flows and ownership</li><li>Risk and gap analysis against event-driven and API-first patterns</li><li>Target architecture with a sequenced roadmap</li></ul>
+            <div class="advisory-proof"><span class="mono">GROUNDED IN</span><div class="project-result"><strong>99.8%</strong><span>availability across 86 systems</span></div><div class="project-tags"><span>Kafka</span><span>IBM MQ</span><span>API governance</span></div><a class="advisory-link" href="#project-integration">See the integration backbone project <span aria-hidden="true">→</span></a></div>
+          </article>
+          <article class="advisory-card">
+            <div class="project-top"><span>B / OPERATIONS</span><span class="project-icon" aria-hidden="true">▤</span></div>
+            <h3>Airline operations platform review</h3>
+            <p class="advisory-for">For operations, scheduling and flight-planning teams facing a platform renewal or vendor decision.</p>
+            <ul class="advisory-list"><li>Platform health check and data-ownership review</li><li>Vendor shortlisting, RFI/RFP and proof-of-concept support</li><li>Roadmap for mission-critical, always-on platforms</li></ul>
+            <div class="advisory-proof"><span class="mono">GROUNDED IN</span><div class="project-result"><strong>11</strong><span>downstream domains served by TKAODS &amp; OFPDS</span></div><div class="project-tags"><span>NetLine</span><span>IOCC</span><span>IATA SSIM</span></div><a class="advisory-link" href="#project-ods">See TKAODS &amp; OFPDS <span aria-hidden="true">→</span></a></div>
+          </article>
+          <article class="advisory-card">
+            <div class="project-top"><span>C / APPLIED AI</span><span class="project-icon" aria-hidden="true">✳</span></div>
+            <h3>Applied AI for aviation operations</h3>
+            <p class="advisory-for">For operations and safety teams that want to test where AI can solve a real operational problem.</p>
+            <ul class="advisory-list"><li>Use-case selection and problem framing</li><li>Data readiness check on operational sources</li><li>Proof-of-concept design with clear success criteria</li></ul>
+            <div class="advisory-proof"><span class="mono">GROUNDED IN</span><div class="project-result"><strong>98%</strong><span>fewer reported ATC callsign confusion events</span></div><div class="project-tags"><span>Graph AI</span><span>Neo4j</span><span>PyTorch Geometric</span></div><a class="advisory-link" href="#project-callsign">See AI-based callsign safety <span aria-hidden="true">→</span></a></div>
+          </article>
+        </div>
+        <div class="advisory-formats" aria-label="Engagement formats">
+          <div><h3>Fixed-scope assessment</h3><p>A defined question, a findings report and a recommended path.</p></div>
+          <div><h3>Interim architect or platform lead</h3><p>Hands-on ownership of an architecture or platform for a set period.</p></div>
+          <div><h3>Review &amp; workshop</h3><p>Architecture reviews, design challenges and team workshops.</p></div>
+        </div>
+        <div class="advisory-cta"><p><strong>Have a platform or integration question?</strong> Write to <a href="mailto:sefik.egriboz@gmail.com">sefik.egriboz@gmail.com</a> with a short description and I will reply with how I would approach it.</p><a class="btn advisory-btn" href="#contact">Discuss an engagement <span aria-hidden="true">↗</span></a></div>
+        <p class="metric-note">Outcomes are stated as reported in the supplied CVs, as elsewhere on this site.</p>
+      </div>
+    </section>
 
     <section class="contact-section" id="contact"><div class="container contact-grid"><div><div class="section-kicker kicker-light">LET'S CONNECT</div><h2>Let's build <em>something meaningful.</em></h2><p>Open to conversations about solution architecture, aviation technology, enterprise integration, AI-enabled systems and technical product leadership.</p></div><div class="contact-links"><a href="mailto:sefik.egriboz@gmail.com"><span>Email</span><strong>sefik.egriboz@gmail.com</strong><span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/sefikegriboz" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><strong>linkedin.com/in/sefikegriboz</strong><span aria-hidden="true">↗</span></a><div class="contact-location">Based in Istanbul, Türkiye · Open to relocation</div></div></div></section>
   </main>
