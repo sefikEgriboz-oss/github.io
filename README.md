@@ -22,11 +22,11 @@ The primary purpose is to support **permanent senior career opportunities** in s
 ├── sefikEgriboz.jpg              Current profile portrait
 ├── social-preview.png            LinkedIn/OG image (1200 × 630)
 ├── favicon.svg
-├── Sefik_Egriboz_E.pdf           Principal Solutions Architect
+├── Sefik_Egriboz_E.pdf           Solutions Architect
 ├── Sefik_Egriboz_A.pdf           Airline Operations
 ├── Sefik_Egriboz_T.pdf           Data & AI
-├── Sefik_Egriboz_P.pdf           Platform Product Owner
-├── Sefik_Egriboz_G.pdf           Technical Delivery & Transformation
+├── Sefik_Egriboz_P.pdf           Senior Platform Product Owner
+├── Sefik_Egriboz_G.pdf           Technical Delivery & Transformation Lead
 ├── certificates/                 Selected public certifications
 ├── sitemap.xml                   English and Turkish canonical URLs
 ├── google5deb26c3673d6e69.html  Google Search Console verification
